@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+
+}
+
+button:focus {outline:0 !important;}
+
+p {
+  color: #f7f7ff;
+}
+
+.App-header {
+  min-height: 6vh;
+  max-height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #f7f7ff;
+}
+
+.App-intro {
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.selectedButton {
+  background-color: #3e4148;
+  height: 50px;
+  width: 200px;
+  /*border: 2px solid #f7f7ff;*/
+  border-radius: 30px;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  color: #f7f7ff;
+  font-size: 20px;
+  margin: 20px;
+  align-items: center;
+
+}
+
+.nonSelected {
+  height: 50px;
+  width: 200px;
+  /*border: 2px solid black;*/
+  border-radius: 30px;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  color: #f7f7ff;
+  font-size: 20px;
+  margin: 20px;
+  align-items: center;
+  background-color: Transparent;
+}
+
+.nonSelected:active {
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
+}
+
+
